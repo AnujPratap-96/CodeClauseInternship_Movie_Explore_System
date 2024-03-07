@@ -11,7 +11,7 @@ Key = "5f29499c";
 
 let getMovie = async () => {
   let movieName = movieNameRef.value;
-  let url = `http://www.omdbapi.com/?t=${movieName}&apikey=${Key}`;
+  let url = `https://www.omdbapi.com/?t=${movieName}&apikey=${Key}`;
 
   //If input feild is empty
   if (movieName.length <= 0) {
